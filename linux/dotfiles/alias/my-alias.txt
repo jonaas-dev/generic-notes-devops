@@ -1,0 +1,20 @@
+# alias doc
+
+alias cdoc='_cdoc(){ touch "$1"; libreoffice "$1";}; _cdoc';
+# cdoc my_file.odt
+alias odoc='_odoc(){ libreoffice "$1";}; _odoc';
+# odoc my_file.odt
+
+# other alias
+
+alias mkcd='_mkcd(){ mkdir "$1"; cd "$1";}; _mkcd';
+# mkcd FOLDER_NAME
+
+# alias Open Material Consulta / Planificacio / Projectes
+
+alias omc='_omc(){ cd "/home/manolo/MEGA/MEGA/MATERIAL_DE_CONSULTA/"; xdg-open .;}; _omc';
+alias opl='_opl(){ cd "/home/manolo/MEGA/MEGA/PLANIFICACIO/"; xdg-open .;}; _opl';
+alias op='_op(){ cd "/home/manolo/MEGA/MEGA/PROJECTES/"; xdg-open .;}; _op';
+# omc
+# opl
+# op
